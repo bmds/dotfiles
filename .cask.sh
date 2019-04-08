@@ -20,6 +20,7 @@ brew cask install --appdir="/Applications" opera
 
 # Development apps
 echo Installing dev apps…
+brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
