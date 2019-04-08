@@ -1,0 +1,23 @@
+[user]
+	name = Barney Scott
+	email = barney.scott@codecomputerlove.com
+[push]
+	default = simple
+[core]
+	editor = vim
+[alias]
+	a = add -A
+	b = branch
+	c = commit -m
+	cp = cherry-pick
+	d = diff
+	go = checkout
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	s = status
+	l = log --graph --all
+	pl = pull
+	ps = push
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
